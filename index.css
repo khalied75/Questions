@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: var(--background);
+    font-family: "Roboto", sans-serif;
+}
+:root
+{
+    --background:#eff6ff;
+    --dark-blue:#3b82f6;
+    --dark-gret:#111827;
+    --light-blue:#dbeafe ;
+}
+/* main start */
+.Questions
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    margin: auto;
+}
+.Questions .acroding
+{
+    width: 100%;
+    background-color: white;
+    padding: 50px 25px 50px;
+    border-radius: 15px;
+    box-shadow: 0.4px 1px 3px;
+}
+.Questions .acroding h1
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    text-align: center;
+    color: var(--dark-blue);
+
+}
+.acroding-items
+{
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.Questions .acroding  .acroding-header h2
+{
+    font-weight: 400;
+    font-size: 22px;
+}
+.Questions .acroding .acroding-header
+{
+    
+    padding: 10px 15px;
+    color: var(--dark-blue);
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.Questions .acroding .acroding-header
+{
+    align-items: center;
+}
+.Questions .acroding .acroding-header .btn  
+{
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 180px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
+}
+.Questions .acroding .acroding-content 
+{
+    display: none;
+    line-height: 140%;
+    padding: 15px;
+    background-color:var(--light-blue);
+    border-radius: 0 0 5px 5px;
+} 
+.Questions .acroding .acroding-content.active 
+{
+    display: block;
+}
+
+/* main end */
